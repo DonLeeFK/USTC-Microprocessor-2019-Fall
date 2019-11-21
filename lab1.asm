@@ -1,6 +1,6 @@
 DATA SEGMENT
     FILENAME1 DB 'Input1.txt',0
-    FILENAME2 DB 'Output1.txt$',0
+    FILENAME2 DB 'Output1.txt',0
     BUFSIZE DB 100
     ACTLEN DB ?
     BUFFER DB 100 DUP(?)
